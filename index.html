@@ -78,17 +78,14 @@ Inspired from Openerp Client Liprary python</p>
   <h4>Configuring file / openerplib / openerplib.inc.php</h4>
   
   <pre><code>
-    <? php
       define('_OPENERPLIB_BD_', '');
       define('_OPENERPLIB_UID_', 0);
       define('_OPENERPLIB_PASSWD_', '');
       define('_OPENERPLIB_URL_', 'http://openerp/xmlrpc');
-    ?>
   </code></pre>
   
   <h4>On-live setting.</h4>
   <pre><code>
-    <? php
       $config = array(
           'bd'        => 'mybdname',
           'uid'       => 1212,
@@ -97,8 +94,6 @@ Inspired from Openerp Client Liprary python</p>
       );
   
       $open = new OpenERP($config);
-    ?>
-    
   </code></pre>
   
 
