@@ -1,4 +1,6 @@
-# openerplib
+# openerplib, openerp-lib, openerp library for php, php openerp lib, openerp-php-lib
+
+openerp php library used xml-rpc , and openerp ORM
 
 openerplib is a library for PHP that allows operations with xml-rpc [OpenERP] (http://www.openerp.com/) comfortably.
 
